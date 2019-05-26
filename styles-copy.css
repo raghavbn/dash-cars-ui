@@ -1,0 +1,65 @@
+body {
+  background-color: #f9f9f9;
+}
+.dash-header {
+  height: 55px;
+  background-color: rgb(28,34,36);
+}
+.home-container {
+  height: 360px;
+  background-color: white;
+}
+.dash-icon-container {
+  width: 95px;
+  height: 35px;
+  padding-top: 10px;
+  padding-left: calc(50% - 43px);
+}
+.dash-slogan {
+  margin: 5px;
+  text-align: center;
+}
+.why-slogan {
+  font-family: gilroy-bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.company-name {
+  color: #85cc19;
+}
+.benefit-list {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: gilroy-bold;
+  margin: 15px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.marketing-msg {
+  font-family: gilroy-bold;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #85cc19;
+}
+.recommended-cars {
+  height: 500px;
+  border: 1px solid red;
+}
+
+.dash-how-it-works {
+
+}
+.dash-footer {
+
+}

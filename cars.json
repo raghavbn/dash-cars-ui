@@ -1,0 +1,186 @@
+{
+	"brand": "Mahindra",
+	"model": "Thar",
+	"color": "Black",
+    "bodyType": "SUV",
+	"variant": "CRDE 4X4 Top End",
+	"year": "2017",
+	"kms": "26000",
+	"fuel": "Diesel",
+	"transmission": "Manual",
+	"driveType": "4wd",
+	"city": "Bangalore",
+	"previousowners": 2,
+    "mileage": "10",
+    "seats": "2",
+	"photos": {
+	},
+    "price": {
+        "newCarPrice": 1200000,
+        "ourPrice": 800000,
+        "dealPrice": 780000,
+        "youSave": 420000
+    },
+    "leaseplans":{
+        "3MonthPlan": {
+            "avgPricePerMonth": 15500,
+            "refundableDeposit": 15500,
+            "defaultRefundableDeposit": 10000,
+            "insurance": {
+                "fees": 6000,
+                "gapInsuranceFees": 1000,
+                "IDV": 780000
+            },
+            "paymentSchedule": {
+                "month1": 15500,
+                "month2": 15500,
+                "month3": 15500
+            }
+        },
+        "9MonthPlan": {
+            "avgPricePerMonth": 15500,
+            "refundableDeposit": 15500,
+            "defaultRefundableDeposit": 10000,
+            "insurance": {
+                "fees": 12000,
+                "gapInsuranceFees": 2000,
+                "IDV": 780000
+            },
+            "paymentSchedule": {
+                "month1": 18500,
+                "month2": 18000,
+                "month3": 17500,
+                "month4": 14000,
+                "month5": 13000,
+                "month6": 12000
+            }
+        },
+        "9MonthPlan": {
+            "avgPricePerMonth": 15500,
+            "refundableDeposit": 15500,
+            "defaultRefundableDeposit": 10000,
+            "insurance": {
+                "fees": 18000,
+                "gapInsuranceFees": 3000,
+                "IDV": 780000
+            },
+            "paymentSchedule": {
+                "month1": 18500,
+                "month2": 18000,
+                "month3": 17500,
+                "month4": 17000,
+                "month5": 16500,
+                "month6": 16000,
+                "month7": 12000,
+                "month8": 12000,
+                "month9": 12000
+            }
+        }
+	},
+    "specifications": {
+        "engine": {
+            "enginetype": "crde", //e.g V twin diesel engine
+        	"enginecc": "2458", //displacement of engine
+        	"maxpower": "250ps@1000 rpm",
+        	"maxtorque": "6100Nm@2000 rpm",
+            "noOfCylinders": 6,
+            "valvesPerCylinder": 4,
+            "valveConfig": "DOHC",
+            "fuelSupply": "CRDI",
+            "BoreXstroke": "83 * 93 mm",
+			"compressionRatio": "17:7:1",
+			"turboCharger": true,
+			"superCharger": false
+        },
+        "dimensions": {
+			"length": "5100mm",
+			"width": "2140mm",
+			"height": "1815mm",
+			"groundClearanceUnladen": "307mm",
+			"wheelBase": "3075mm",
+			"frontTread": "1655mm",
+			"rearTread": "1675mm",
+			"kerbWeight": "2535kg",
+			"rearHeadRoom": "1015mm",
+			"rearLegRoom": "362mm",
+			"frontHeadRoom": "1046mm",
+			"frontLegRoom": "349mm"
+		},
+        "frontBrakeType": "disc",
+        "rearBrakeType": "disc",
+        "steeringType": "Power Steering",
+        "turningRadius": "4 meters",
+        "wheelSize": "18 inch",
+        "gearbox": "5 speed",
+        "acceleration_0-100": "10", //in seconds
+        "tyreType": "tubeless radial",
+        "tyreSize": "205 16/60",
+        "rimType": "alloy", //rims or alloy wheels
+        "rimSize": "19 inch", //rim or alloy wheel size
+        "noOfDoors": 5,
+        "cargoVolume": 680, //in litres
+    },
+	"features": {
+		"interiors": {
+			"airConditioner": true,
+			"heater": true,
+			"adjustableSteering": true,
+			"leatherSeats": true,
+			"leatherSteeringWheel": true,
+			"digitalClock": true,
+			"heightAdjustableDriverSeat": true,
+			"rearWashWiper": true
+		},
+		"comfort-features": {
+			"powerSteering": true,
+			"powerWindowsFront": true,
+			"powerWindowsRear": true,
+			"remoteTrunkOpener": true,
+			"remoteFuelLidOpener": true,
+			"lowFuelWarningLight": true,
+			"vanityMirror": true,
+			"rearReadingLamp": true,
+			"rearSeatHeadRest": true,
+			"rearSeatCenterArmRest": true,
+			"heightAdjustableFrontSeatBelts": true,
+			"cupHoldersFront": true,
+			"cupHoldersRear": true,
+			"rearAcVents": true,
+			"navigationSystem": true
+		},
+		"safety-features": {
+			"ABS": true,
+			"centralLocking": true,
+			"powerDoorLocks": true,
+			"childSafetyLock": true,
+			"antiTheftAlarm": true,
+			"driverAirBags": true,
+			"passengerAirBag": true,
+			"rearSeatBelts": true,
+			"seatBeltWarning": true,
+			"adjustableSeats": true,
+			"tyrePressureMonitor": true,
+			"crashSensor": true,
+			"rearCamera": true,
+			"antiTheftDevice": true,
+			"reversingCamera": true,
+			"keylessEntry": true,
+			"immobilizer": true
+		},
+        "entertainment-features": {
+
+        },
+		"car-exterior-features": {
+			"adjustableHeadlights": true,
+			"powerAdjustableExternalRearViewMirror": true,
+			"electricalFoldingRearViewMirror": true,
+			"rainSensingWipers": true,
+			"rearWindowWiper": true,
+            "powerAntenna": true,
+            "tintedGlass": true,
+            "frontFogLamps": true,
+            "sunRoof": true,
+            "rearWindowDefogger": true
+		}
+    }
+}
